@@ -94,7 +94,7 @@ Você pode comparar visualmente o antes e depois da aplicação de cada filtro.
 
 Este projeto foi desenvolvido por:
 
-  * **[Pedro Augusto Gonçalves Lucena]** (lucena.pedro@academico.ifpb.edu.br])
+  * **[Pedro Augusto Gonçalves Lucena]** ([lucena.pedro@academico.ifpb.edu.br])
   * **[Maria Clara Colaço Da Costa ]** ([clara.colaco@academico.ifpb.edu.br])
   * **[Sophia Sales Fernades]** ([sophia.sales@academico.ifpb.edu.br])
 
