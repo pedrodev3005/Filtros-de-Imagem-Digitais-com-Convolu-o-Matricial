@@ -108,5 +108,3 @@ Este projeto foi desenvolvido por:
 
 -----
 
-```
-```
