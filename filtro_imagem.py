@@ -1,8 +1,6 @@
 import numpy as np
 from PIL import Image
 
-
-
 def apply_convolution(image_array, kernel):
     """
     Aplica a operação de convolução em uma imagem (suporta tons de cinza ou RGB).
@@ -54,7 +52,6 @@ def apply_convolution(image_array, kernel):
     # Normalizar e clipar os valores para garantir que estejam no intervalo de 0-255
     output_image = np.clip(output_image, 0, 255)
     return output_image.astype(np.uint8)
-
 
 
 if __name__ == "__main__":
@@ -112,13 +109,6 @@ if __name__ == "__main__":
         [0, 1, 2]
     ], dtype=float)
 
-    # Kernel Outline (Contorno)
-    outline_kernel = np.array([
-        [-1, -1, -1],
-        [-1, 8, -1],
-        [-1, -1, -1]
-    ], dtype=float)
-
     # --- Escolha qual filtro aplicar ---
     print("\nEscolhendo o filtro...")
 
@@ -133,11 +123,8 @@ if __name__ == "__main__":
     #filter_kernel = sharpen_kernel
     #filter_name = "Nitidez"
 
-    #filter_kernel = emboss_kernel
-    #filter_name = "Relevo_Emboss"
-
-    filter_kernel = outline_kernel
-    filter_name = "Contorno_Outline"
+    filter_kernel = emboss_kernel
+    filter_name = "Relevo_Emboss"
 
     print(f"Aplicando o filtro: {filter_name}")
     print("Kernel:\n", filter_kernel)
